@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+/* ===========================navBar=========================== */
+.main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.logo{
+    color: green;
+    font-size: 2em;
+}
+.navigation a{
+    text-decoration: none;
+    padding: 6px 12px;
+    margin: 0 10px;
+    border-radius: 10px;
+    color: green;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.navigation a:hover{
+    color: #f9f9f9;
+    background-color: green;
+}
+/* ===========================part2=========================== */
+.wrap{
+    overflow: hidden;
+}
+.part2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#text{
+    position: relative;
+    font-size: 5em;
+    color: #f9f9f9;
+
+}
+.part2 img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    pointer-events: none;
+    height: 100vh;
+}
+/* =================================part3================================= */
+.part3{
+    /* position: relative; */
+    background-color: #003329;
+    color: #f9f9f9;
+    padding-left: 50px;
+}
